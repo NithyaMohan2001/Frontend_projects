@@ -1,0 +1,88 @@
+.loginContainer{
+    width: 99%;
+    backdrop-filter: blur(200px);
+}
+
+.loginForm {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin:100px auto;
+}
+
+.loginLogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.loginLogo span{
+    color: blue;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.loginLogo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.field{
+    width: 100%;
+    text-align: left;
+}
+
+.input_field{
+    width: 92%;
+    padding: 15px;
+    font-size: 15px;
+    border: 1px solid #c1c0c0;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+.validation_check {
+    margin-bottom: 8px;
+    color: red;
+    font-size: 12px;
+    height: 17px;
+}
+
+.submit_btn {
+    background-color: blue;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    transition: 0.3s background-color;
+}
+.submit_btn:hover {
+    box-shadow: 0 3px 3px gray;
+}
+.submit_btn:active {
+    background-color: rgb(4, 4, 127);
+}
+
+.submit_btn[disabled] {
+    pointer-events: none;
+    background-color: gray;
+}
+.login_guest{
+color: #4d2dde;
+font-weight: bold;
+text-decoration: underline;
+cursor: pointer;
+}
+
+.login_guest:active{
+    color: rgb(4, 4, 127);
+}

@@ -1,0 +1,61 @@
+
+.header_main{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 10px;
+    z-index: 1000;
+    position: sticky;
+    top:0;
+    box-shadow: 0 10px 5px -5px #d3d3d3;
+    background-color: white;
+
+}
+
+.logo img{
+    height: 80px;
+    width: 100%;
+    margin-left: 10px;
+    transition: 0.6s;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+.page_list ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.page_list ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.page_list ul li{
+    margin: 20px;
+}
+
+.page_list ul li a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.cart_item_count {
+    border: 3px solid rgb(82, 240, 82);
+    padding: 1px 4px;
+    border-radius: 6px;
+    margin-right: 5px;
+}
+.signInOut{
+    font-weight: bold;
+    margin-right: 20px;
+}
+.signInOut span{
+    color:rgb(237, 151, 151);
+    font-size: 20px;
+    margin-right: 20px;
+}

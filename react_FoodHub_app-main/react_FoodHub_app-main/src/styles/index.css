@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: white;
+}
+
+.app{
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.error_page{
+    text-align: center;
+    padding: 30px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+/* submit and clear button */
+
+.submit_btnContainer {
+    padding: 15px 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s background-color;
+}
+
+.submit_Btn {
+    background-color: blue;
+}
+
+.clear_Btn {
+    margin-left: 20px;
+    background-color: rgb(240, 49, 49);
+}
+
+.submit_Btn:hover,
+.clear_Btn:hover {
+    box-shadow: 0 3px 3px gray;
+}   
+
+.submit_Btn:active {
+    background-color: rgb(4, 4, 127);
+}
+
+.clear_Btn:active {
+    background-color: rgb(209, 19, 19);
+}
+
+
+.submit_Btn[disabled] {
+    pointer-events: none;
+    background-color: gray;
+}
+
+/* toast style */
+
+.toast_design{
+    width: 400px;
+}
